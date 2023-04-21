@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="score_table">
+        <b>SCOREBOARD</b>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td class="you">You</td>
+                    <td class="matches">Matches</td>
+                    <td class="computer">Computer</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="user_score" class="you"></td>
+                    <td id="no_of_matches" class="matches"></td>
+                    <td id="computer_score" class="computer"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="choices_btn">
+        <button id="rock" class="btn"></button>
+        <button id="paper" class="btn"></button>
+        <button id="scissor" class="btn"></button>
+    </div>
+    <div class="result">
+        <div class="choices" id="user_choice">
+            <div class="choices_images" id="user_image"></div>
+            <div class="bottom_text">You</div>
+        </div>
+        <div class="vs"><b>v/s</b></div>
+        <div class="choices" id="computer_choice">
+            <div class="choices_images" id="computer_image"></div>
+            <div class="bottom_text">Computer</div>
+        </div>
+    </div>
+</body>
+
+</html>
